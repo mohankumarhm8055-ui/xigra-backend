@@ -7,7 +7,7 @@ const path = require('path');
 const router = express.Router();
 
 // Production URL for scanning (your requirement B)
-const PROD_UPLOAD_BASE = "http://10.77.156.116:3000/upload?shop=";
+const PROD_UPLOAD_BASE = "https://xigra-backend.onrender.com/api/test?shop=";
 
 // Optional cache folder
 const CACHE_DIR = path.join(__dirname, '..', 'qr_cache');
